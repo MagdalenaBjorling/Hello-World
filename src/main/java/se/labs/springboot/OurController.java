@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+//kommentar
 @Controller
 @EnableAutoConfiguration
 public class OurController {
@@ -14,7 +15,7 @@ public class OurController {
     @ResponseBody
     String home() {
         return "Hello World!";
-        
+
     }
 
     @RequestMapping("/ping")
