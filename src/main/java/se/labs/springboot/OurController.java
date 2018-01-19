@@ -13,12 +13,14 @@ public class OurController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
+      
         return "Hello World!";
-        
+
     }
 
     @RequestMapping("/ping")
     @ResponseBody
+
     String ping() {
         return "pong";
     }
