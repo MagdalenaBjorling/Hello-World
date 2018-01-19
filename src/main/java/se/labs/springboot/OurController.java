@@ -14,6 +14,7 @@ public class OurController {
     @ResponseBody
     String home() {
         return "Hello World!";
+        
     }
 
     @RequestMapping("/ping")
